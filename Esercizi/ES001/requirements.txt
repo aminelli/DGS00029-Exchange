@@ -1,0 +1,11 @@
+# Dipendenze per Exchange Online Transport Rule Manager
+# Installazione: pip install -r requirements.txt
+
+# Azure Identity per autenticazione
+azure-identity==1.15.0
+
+# Requests per chiamate HTTP
+requests==2.31.0
+
+# Optional: Microsoft Graph SDK (se necessario per altre funzionalità)
+# msgraph-sdk==1.3.0

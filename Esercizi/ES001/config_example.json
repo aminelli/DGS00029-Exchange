@@ -1,0 +1,20 @@
+{
+  "azure_ad": {
+    "tenant_id": "your-tenant-id-here",
+    "client_id": "your-client-id-here",
+    "client_secret": "your-client-secret-here"
+  },
+  "outbound_connector": {
+    "name": "ConnettoreOutbound-DominioSpecifico",
+    "smart_host": "mail.example-partner.com",
+    "tls_settings": "DomainValidation",
+    "use_mx_record": false,
+    "enabled": true
+  },
+  "transport_rule": {
+    "name": "Instrada-Email-Dominio-Specifico",
+    "destination_domain": "example-partner.com",
+    "priority": 0,
+    "enabled": true
+  }
+}
